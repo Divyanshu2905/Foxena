@@ -1,0 +1,38 @@
+.mains {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    place-items: center;
+  }
+.imgs1 {
+    max-height: 110%;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    object-fit: cover; 
+    z-index: 1;
+}
+
+.imgs3 {
+    max-height: 25%;
+    max-width: 25%;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    z-index: 2;
+    top:40%;
+    left:30%;
+}
+.links{    
+    position: absolute;
+    z-index: 3;
+    color: white;
+    font-size: 2.5vw;
+    font-weight: 700;
+    margin: auto;
+    top: 10%;
+    left: 8%;
+    text-decoration: none;
+}

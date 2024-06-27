@@ -1,0 +1,17 @@
+.mains {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    display: grid;
+    place-items: center;
+  }
+  
+  .imgs {
+    max-height: 110%;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    object-fit: cover; 
+    z-index: 1;
+  }

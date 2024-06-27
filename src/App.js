@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import React from 'react';
+import Home from './pages/home';
+import Genexis from './pages/genexis';
+import Omnixs from './pages/omnixs';
+import Ravines from './pages/ravines';
+import Idream from './pages/idream';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='apps'>
+      <img className='bck' src='/bck.jpg'></img>
+      {/* <Home/> */}
+      {/* <Genexis/> */}
+      {/* <Omnixs/> */}
+      {/* <Ravines/>  */}
+      <Idream/>
     </div>
   );
 }
