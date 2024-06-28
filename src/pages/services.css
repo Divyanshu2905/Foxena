@@ -1,0 +1,49 @@
+.contain{
+    position: relative;
+    z-index: 1;
+    clear: both;
+    display: block;
+    max-width: 1200px;
+    padding: 1.66em 0 0;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 24px;
+}
+.title{
+    position: relative;
+    z-index: 3;
+    font-size: 2.33em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    color: #fff;
+}
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%; /* Adjust width as needed */
+    margin: 0 auto;
+  }
+  
+  th, td {
+    border: 0;
+    border-bottom: 1px dotted rgba(140, 139, 139, 0.3); /* Only horizontal lines */
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5vw;
+  }
+  .imgshad{
+    transition: filter 0.5s ease-in-out;
+  }
+  .imgshad:hover {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.945)); /* Adjust color and intensity as needed */
+  }
+
+
+  

@@ -5,6 +5,9 @@ import Genexis from './pages/genexis';
 import Omnixs from './pages/omnixs';
 import Ravines from './pages/ravines';
 import Idream from './pages/idream';
+import Services from './pages/services';
+import Support from './pages/support';
+import About from './pages/about';
 function App() {
   return (
     <div className='apps'>
@@ -13,7 +16,10 @@ function App() {
       {/* <Genexis/> */}
       {/* <Omnixs/> */}
       {/* <Ravines/>  */}
-      <Idream/>
+      {/* <Idream/> */}
+      {/* <Services/> */}
+      {/* <Support/> */}
+      <About/>
     </div>
   );
 }
