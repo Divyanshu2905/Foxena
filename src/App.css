@@ -15,3 +15,20 @@
   z-index: -1; 
 }
 
+.horizontal-container {
+  position: relative;
+  display: flex;
+  overflow-x: auto; /* Allows horizontal scrolling */
+  height: 100vh; /* Ensures full height */
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+}
+
+.horizontal-container::-webkit-scrollbar {
+  display: none; 
+}
+.horizontal-container > * {
+  min-width: 100vw; /* Ensures each child takes full viewport width */
+  flex-shrink: 0; /* Prevents shrinking */
+}
+

@@ -9,7 +9,7 @@ export default function Ravines() {
         <img className="imgs" style={{zIndex:"1", height:"90%", top:"15%"}} src='/rvn2.png'></img>
         <img className="imgmid" style={{zIndex:"2"}}src='/rvn3.png'></img>
         <img className="imgtops" src='/rvn4.png'></img>
-        <div className="tops"><a className="links" href="http://ravines.foxena.com/" >ONLINE IDENTITY<br/>& WEB SERVICES</a></div>
+        <div className="tops"><a className="links" href="http://ravines.foxena.com/" style={{top:"22%"}}>ONLINE IDENTITY<br/>& WEB SERVICES</a></div>
     </div>
   );
 }

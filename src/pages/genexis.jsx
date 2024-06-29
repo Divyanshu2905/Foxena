@@ -6,7 +6,7 @@ export default function Genexis() {
     <div className="mains">
         <img className="imgs1" src='/gnx2.png'></img>
         <a href="http://genexis.foxena.com/"><img className="imgs3" src='/gnx1.png'></img></a>
-        <div className="tops"><a className="links" href="http://genexis.foxena.com/">STRATEGIC BRANDING<br/>& GRAPHIC DESIGN STUDIO</a></div>
+        <div className="tops"><a className="links" href="http://genexis.foxena.com/" style={{zIndex:"10"}}>STRATEGIC BRANDING<br/>& GRAPHIC DESIGN STUDIO</a></div>
     </div>
   );
 }
