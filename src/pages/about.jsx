@@ -8,7 +8,7 @@ export default function About() {
             <h1 className="titleabout">FOXENA CORPORATION</h1>
             <p className="aboutText">FOXENA is the multi-functional company which helps people and businesses in organizing IT services and providing world-class products. At Foxena, we realize the need of delivering creative solutions by using cutting-edge technologies and business models. It helps our clients to realize their full potential by having the power of latest technology available to them.
             </p>
-            <ul className="list-container">
+            <ul className="list-container" style={{paddingTop:"2%"}}>
             <li className="list-item">
                 <a href="/download/corporate.ppsx">
                 <FontAwesomeIcon icon={faFilePowerpoint} style={{color: "#63E6BE",marginRight:"0.5vw"}} />

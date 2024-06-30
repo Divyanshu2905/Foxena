@@ -9,26 +9,124 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
-  height: 100%;
+  width: 180%;
+  height: 150%;
   object-fit: cover;
   z-index: -1; 
 }
 
-.horizontal-container {
-  position: relative;
+.sticky-navbar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  padding: 10px 0;
+  z-index: 1000;
   display: flex;
-  overflow-x: auto; /* Allows horizontal scrolling */
-  height: 100vh; /* Ensures full height */
-  scrollbar-width: none;
-  -ms-overflow-style: none; 
+  justify-content: center;
 }
 
-.horizontal-container::-webkit-scrollbar {
-  display: none; 
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: 10px;
+  padding: 0;
 }
-.horizontal-container > * {
-  min-width: 100vw; /* Ensures each child takes full viewport width */
-  flex-shrink: 0; /* Prevents shrinking */
+
+.navbar-list li {
+  flex: 1;
+  text-align: center;
+  position: relative;
 }
+
+.navbar-list li a {
+  text-decoration: none;
+  color: white; 
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.navbar-list li a::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background-color: rgb(3, 124, 164);
+  transition: all 0.3s ease;
+  transform: translateX(-50%);
+}
+
+.navbar-list li a:hover::after {
+  width: 100%;
+  bottom: 0; 
+  height: 4px; 
+}
+
+.navbar-list li a:hover {
+  color: #f0f0f0; 
+}
+
+.custom-modal .modal-content {
+  background-color: #333; 
+  color: white; 
+}
+
+.custom-modal-header {
+  border-bottom: none !important; 
+}
+
+.custom-modal-body {
+  display: flex;
+  justify-content: center; 
+  height: 100%; 
+}
+
+.modal-content-wrapper {
+  text-align: center;
+  width: 35%; /* Limit the width to 50% */
+}
+
+.first-paragraph, .second-paragraph, .third-paragraph {
+  margin: 1rem 0;
+}
+.first-paragraph{
+  font-size: 1.2rem;;
+}
+.third-paragraph{
+  font-size: 1rem;
+}
+
+.andu{
+  display: inline-block;
+  text-decoration: underline;
+  text-decoration-color: #1aa261; /* Green underline */
+  margin: 0.2rem 0; /* Less spacing between elements */
+  padding: 0.2rem;
+  transition: background-color 0.3s ease;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.andu:hover {
+  background-color: #1aa261; /* Background turns green on hover */
+  color: white; /* Optional: change text color on hover for better contrast */
+}
+.andu2{
+  display: inline-block;
+  text-decoration: none;
+  margin: 0.2rem 0; /* Less spacing between elements */
+  padding: 0.2rem;
+}
+.custom-modal .btn-close {
+  filter: invert(1); 
+  width: 1.5rem!important; 
+  height: 1.5rem !important; 
+}
+
 

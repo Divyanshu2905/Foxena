@@ -21,6 +21,7 @@
 
 .list-container {
     margin-top:10%;
+    padding-top: 5%;
     display: flex;
     justify-content: center; /* Center horizontally */
   }
@@ -59,6 +60,6 @@
     color: #fff;
     font-size:1em;
   }
-  a{
-    text-decoration: none;
+  .list-item a{
+    text-decoration: none !important;
   }

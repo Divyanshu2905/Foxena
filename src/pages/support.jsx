@@ -6,7 +6,7 @@ export default function Support() {
     return(
         <div className="containsup">
         <h1 className="titlesup">GET SUPPORT</h1>
-        <div className="list-container">
+        <div className="list-container" style={{paddingTop:"5%"}}>
           <ul className="list-column">
             <li className="list-item">
             <FontAwesomeIcon icon={faFortAwesome} size="2xl" style={{color: "#63E6BE", marginRight: "10px"}} />
