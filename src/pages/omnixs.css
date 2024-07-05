@@ -16,7 +16,7 @@
         z-index: 1;
         bottom:5%;
     }
-    .imgs2 {
+    .imgsomni {
         max-height: 25%;
         max-width: 25%;
         position: absolute;
@@ -26,7 +26,7 @@
         bottom:5%;
     }
 
-  .links{    
+  .linksomni{    
     position: absolute;
     z-index: 3;
     color: white;
@@ -36,4 +36,15 @@
     top: 10%;
     left: 8%;
     text-decoration: none;
+}
+
+@media (max-width: 1200px) {
+  .imgsomni{
+      max-width: 50%;
+      max-height: 50%;
+      top:30%;
+  }
+  .linksomni{
+      font-size: 5vw;
+  }
 }

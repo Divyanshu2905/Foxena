@@ -12,14 +12,14 @@ export default function Home({scrollXProgress}) {
   const x8 = useTransform(scrollXProgress, [0.4, 0.6], ["130%", "-130%"]);
   return (
     <div className="mains">
-        <a href="http://omnixs.foxena.com/"><motion.img className="imgs2" src='/onx1.png' style={{x:x1}}></motion.img></a>
+        <a href="http://omnixs.foxena.com/"><motion.img className="imgsomni" src='/onx1.png' style={{x:x1}}></motion.img></a>
         <motion.img className="imgs" src='/onx2.png' style={{x:x2}}></motion.img>
         <motion.img className="imgs" style={{top:"-5%", x:x3}} src='/onx3.png' ></motion.img>
         <motion.img className="imgs" src='/onx4a.png' style={{x:x4}}></motion.img>
         <motion.img className="imgs" src='/onx4b.png' style={{x:x5}}></motion.img>
         <motion.img className="imgs" src='/onx4c.png' style={{x:x6}}></motion.img>
         <motion.img className="imgs" src='/onx5.png' style={{x:x7}}></motion.img>
-        <div className="tops"><motion.a className="links" href="http://omnixs.foxena.com/" style={{x:x8}}>ENTERPRISE ANALYTICS<br/>& SOFTWARE SOLUTIONS</motion.a></div>
+        <div className="tops"><motion.a className="linksomni" href="http://omnixs.foxena.com/" style={{x:x8}}>ENTERPRISE ANALYTICS<br/>& SOFTWARE SOLUTIONS</motion.a></div>
     </div>
   );
 }

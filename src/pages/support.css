@@ -63,3 +63,15 @@
   .list-item a{
     text-decoration: none !important;
   }
+
+  @media (max-width: 1200px) {
+    .list-text{
+      font-size: 15px;
+    }
+    .fonts{
+      max-width: 25%;
+    }
+    .titlesup{
+      font-size: 2em;
+    }
+  }

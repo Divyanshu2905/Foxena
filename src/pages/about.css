@@ -12,7 +12,7 @@
 .titleabout{
     position: relative;
     z-index: 3;
-    font-size: 2.33em;
+    font-size: 7vw;
     letter-spacing: 0.1em;
     text-align: center;
     color: #fff;
@@ -22,7 +22,8 @@
     text-align: justify;
     padding-top: 3%;
     padding-bottom: 1em;
-    font-size: 1.2em;
+    font-size: 4vw;
+    padding:5%;
 }
 
 .list-container {
@@ -36,7 +37,9 @@
   .list-item {
     margin-right: 4vw; /* Adjust spacing between items */
   }
-  
+  .text{
+    font-size: 4vw;
+  }
   .list-item:hover .text {
     color: #63E6BE; /* Green color on hover */
   }
@@ -50,6 +53,7 @@
   }
   .lighttext{
     color: #545454b3;
+    font-size: 4vw;
   }
 
   .list-container1 {
@@ -82,5 +86,10 @@
     font-weight: bold;
     transition: text-decoration 0.3s ease;
     color: #fff;
-    font-size:1.8vw;
+    font-size:4vw;
+  }
+  @media (max-width: 1200px) {
+    .list-text1{
+      visibility: hidden;
+    }
   }

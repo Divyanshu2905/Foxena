@@ -14,7 +14,7 @@ export default function Ravines({scrollXProgress}) {
         <motion.img className="imgs" style={{zIndex:"1", height:"90%", top:"15%",x:x3rav}} src='/rvn2.png'></motion.img>
         <motion.img className="imgmid" style={{zIndex:"2",x:x4rav}}src='/rvn3.png'></motion.img>
         <motion.img className="imgtops" src='/rvn4.png' style={{x:x5rav}}></motion.img>
-        <div className="tops"><motion.a className="links" href="http://ravines.foxena.com/" style={{top:"22%",x:x1rav}}>ONLINE IDENTITY<br/>& WEB SERVICES</motion.a></div>
+        <div className="tops"><motion.a className="linksrav" href="http://ravines.foxena.com/" style={{top:"22%",x:x1rav}}>ONLINE IDENTITY<br/>& WEB SERVICES</motion.a></div>
     </div>
   );
 }

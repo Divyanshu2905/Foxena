@@ -39,7 +39,7 @@
         top:10%;
         left:8%;
     }
-  .links{    
+  .linksrav{    
     position: absolute;
     color: white;
     font-size: 2.8vw;
@@ -49,4 +49,17 @@
     left: 8%;
     text-decoration: none;
     z-index: -1;
+}
+  @media (max-width: 1200px) {
+    .imgrav{
+        max-width: 50%;
+        max-height: 50%;
+        top:10%;
+    }
+    .imgs{
+      max-height: 50%;
+    }
+    .linksrav{
+        font-size: 5vw;
+    }
 }

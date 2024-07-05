@@ -129,4 +129,36 @@
   height: 1.5rem !important; 
 }
 
+@media (max-width: 768px) {
+  .sticky-navbar {
+    flex-direction: column;
+    right: 85%;
+  }
+  
+  .navbar-list {
+    flex-direction: column;
+    align-items: start;
+  }
+  
+  .navbar-list li {
+    margin: 10px 0;
+  }
+  .first-paragraph{
+    visibility: hidden;
+  }
+  .third-paragraph{
+    visibility: hidden;
+  }
+  .andu2{
+    visibility: hidden;
+  }
+  .second-paragraph{
+    width: 200%;
+    margin:-50%;
+  }
+  .andu{
+    font-size: 7vw;
+  }
+
+}
 

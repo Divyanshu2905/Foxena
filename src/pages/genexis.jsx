@@ -9,7 +9,7 @@ export default function Genexis({scrollXProgress}) {
     <div className="mains">
         <motion.img className="imgs1" src='/gnx2.png' style={{x:x1}}></motion.img>
         <a href="http://genexis.foxena.com/"><motion.img className="imgs3" src='/gnx1.png' style={{x:x2}}></motion.img></a>
-        <div className="tops"><motion.a className="links" href="http://genexis.foxena.com/" style={{zIndex:"10", x:x3}}>STRATEGIC BRANDING<br/>& GRAPHIC DESIGN STUDIO</motion.a></div>
+        <div className="tops"><motion.a className="linksgen" href="http://genexis.foxena.com/" style={{zIndex:"10", x:x3}}>STRATEGIC BRANDING<br/>& GRAPHIC DESIGN STUDIO</motion.a></div>
     </div>
   );
 }

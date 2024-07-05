@@ -1,4 +1,4 @@
-.mains {
+.mainsho {
     width: 100%;
     height: 100vh;
     overflow: hidden;
@@ -6,9 +6,11 @@
     position: relative;
     display: grid;
     place-items: center;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
   }
   
-  .imgs {
+  .imgsho {
     max-height: 110%;
     position: absolute;
     inset: 0;
@@ -16,3 +18,11 @@
     object-fit: cover; 
     z-index: 1;
   }
+
+  @media (max-width: 1200px) {
+    .imgsho {
+        max-width: 200%;
+        left: 50%;
+        margin-left: -100%;
+    }
+}
