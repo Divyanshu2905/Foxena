@@ -12,7 +12,7 @@
 .titleabout{
     position: relative;
     z-index: 3;
-    font-size: 7vw;
+    font-size: 5vw;
     letter-spacing: 0.1em;
     text-align: center;
     color: #fff;
@@ -20,10 +20,9 @@
 .aboutText{
     color: #fff;
     text-align: justify;
-    padding-top: 3%;
     padding-bottom: 1em;
-    font-size: 4vw;
-    padding:5%;
+    font-size: 2vw;
+    padding:3%;
 }
 
 .list-container {
@@ -36,9 +35,6 @@
   }
   .list-item {
     margin-right: 4vw; /* Adjust spacing between items */
-  }
-  .text{
-    font-size: 4vw;
   }
   .list-item:hover .text {
     color: #63E6BE; /* Green color on hover */
@@ -53,7 +49,7 @@
   }
   .lighttext{
     color: #545454b3;
-    font-size: 4vw;
+    font-size: 2vw;
   }
 
   .list-container1 {
@@ -75,7 +71,7 @@
   .list-item1 {
     display: flex;
     align-items: center;
-    margin-bottom: 50px; /* Adjust spacing between items */
+    margin-bottom: 20px; /* Adjust spacing between items */
     cursor: pointer;
   }
   .list-item1:hover .list-text1 {
@@ -86,10 +82,22 @@
     font-weight: bold;
     transition: text-decoration 0.3s ease;
     color: #fff;
-    font-size:4vw;
+    font-size:2vw;
   }
-  @media (max-width: 1200px) {
+  @media (max-width: 728px) {
     .list-text1{
       visibility: hidden;
+    }
+    .text{
+      font-size: 4vw;
+    }
+    .lighttext{
+      font-size: 4vw;
+    }
+    .titleabout{
+      font-size: 8vw;
+    }
+    .aboutText{
+      font-size: 4vw;
     }
   }
